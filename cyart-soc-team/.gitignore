@@ -1,0 +1,43 @@
+# CYART SOC Team — .gitignore
+
+# API Keys — NEVER commit these
+*.env
+.env.*
+api_keys.txt
+secrets.txt
+*_key.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Large evidence files (store separately)
+*.raw
+*.mem
+*.vmem
+*.dd
+*.E01
+
+# Keep hash files (small, important for chain of custody)
+!*.sha256
+!*.md5
