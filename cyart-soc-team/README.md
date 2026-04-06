@@ -1,4 +1,4 @@
-# 🛡️ CYART SOC Team — Security Operations Center Training Repository
+#  CYART SOC Team — Security Operations Center Training Repository
 
 > **Repository:** `cyart-soc-team`  
 > **Team:** CYART SOC Analyst Training Program  
